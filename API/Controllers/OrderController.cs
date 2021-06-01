@@ -58,6 +58,10 @@ namespace API.Controllers
             try
             {
                 result = await client.GetAllOrderAsync(symbol);
+                if(result == null)
+                {
+                    throw new Exception("Incorrect symbol!");
+                }
                 return Ok(result);
             }
             catch (Exception e)

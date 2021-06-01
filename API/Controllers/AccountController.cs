@@ -23,6 +23,10 @@ namespace API.Controllers
             try
             {
                 result = await client.GetAccountAsync();
+                if(result == null)
+                {
+                    throw new Exception("Invalid data!");
+                }
                 return Ok(result);
             }
             catch(Exception e)

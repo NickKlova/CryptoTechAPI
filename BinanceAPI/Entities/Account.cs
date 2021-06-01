@@ -17,12 +17,18 @@ namespace BinanceAPI.Entities
             var signature = Tool.CreateHMACSignature(Config.SecretKey, DataQueryString);
 
             var response = await client.GetAsync($"{Config.BaseUrl}/api/v3/account?{DataQueryString}&signature={signature}");
+            if (response.IsSuccessStatusCode)
+            {
+                var content = response.Content.ReadAsStringAsync().Result;
 
-            var content = response.Content.ReadAsStringAsync().Result;
+                var json_response = JsonConvert.DeserializeObject<HTTP.Response.AccountResponse.Account>(content);
 
-            var json_response = JsonConvert.DeserializeObject<HTTP.Response.AccountResponse.Account>(content);
-
-            return json_response;
+                return json_response;
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }

@@ -14,7 +14,7 @@ namespace BinanceAPI.HTTP.Response
         public string timeInForce { get; set; }
         public string type { get; set; }
         public string side { get; set; }
-        public long stopPrice { get; set; }
+        public decimal stopPrice { get; set; }
         public bool isWorking { get; set; }
     }
 }

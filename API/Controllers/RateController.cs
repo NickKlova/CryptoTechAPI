@@ -20,6 +20,10 @@ namespace API.Controllers
             try
             {
                 result = await client.GetDailyRateAsync(symbol);
+                if(result.symbol == null)
+                {
+                    throw new Exception("Exception! Symbol or ApiKey is invalid!");
+                }
                 return Ok(result);
             }
             catch(Exception e)

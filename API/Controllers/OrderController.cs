@@ -78,10 +78,18 @@ namespace API.Controllers
                 if(json.side == "BUY")
                 {
                     result = await client.CreateOrderAsync(json.symbol, BinanceAPI.Enums.Side.BUY, json.quoteOrderQty);
+                    if (result.symbol == null || result.status == null)
+                    {
+                        throw new Exception("Parameters entered incorrectly!");
+                    }
                 }
                 else if(json.side == "SELL")
                 {
                     result = await client.CreateOrderAsync(json.symbol, BinanceAPI.Enums.Side.SELL, json.quoteOrderQty);
+                    if (result.symbol == null || result.status == null)
+                    {
+                        throw new Exception("Parameters entered incorrectly!");
+                    }
                 }
                 else
                 {

@@ -1,0 +1,9 @@
+C:\Users\38050\Desktop\CryptoTech\API\API\BinanceAPI\obj\Debug\netcoreapp3.1\BinanceAPI.csprojAssemblyReference.cache
+C:\Users\38050\Desktop\CryptoTech\API\API\BinanceAPI\obj\Debug\netcoreapp3.1\BinanceAPI.AssemblyInfoInputs.cache
+C:\Users\38050\Desktop\CryptoTech\API\API\BinanceAPI\obj\Debug\netcoreapp3.1\BinanceAPI.AssemblyInfo.cs
+C:\Users\38050\Desktop\CryptoTech\API\API\BinanceAPI\obj\Debug\netcoreapp3.1\BinanceAPI.csproj.CoreCompileInputs.cache
+C:\Users\38050\Desktop\CryptoTech\API\API\BinanceAPI\bin\Debug\netcoreapp3.1\BinanceAPI.deps.json
+C:\Users\38050\Desktop\CryptoTech\API\API\BinanceAPI\bin\Debug\netcoreapp3.1\BinanceAPI.dll
+C:\Users\38050\Desktop\CryptoTech\API\API\BinanceAPI\bin\Debug\netcoreapp3.1\BinanceAPI.pdb
+C:\Users\38050\Desktop\CryptoTech\API\API\BinanceAPI\obj\Debug\netcoreapp3.1\BinanceAPI.dll
+C:\Users\38050\Desktop\CryptoTech\API\API\BinanceAPI\obj\Debug\netcoreapp3.1\BinanceAPI.pdb

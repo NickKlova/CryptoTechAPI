@@ -13,9 +13,9 @@ namespace API.Controllers
     public class RateController : ControllerBase
     {
         [HttpGet]
-        public async Task<IActionResult> GetDailyRate([FromHeader] string AKEY, [FromQuery]string symbol)
+        public async Task<IActionResult> GetDailyRate([FromHeader] string ApiKEY, [FromQuery]string symbol)
         {
-            BinanceClient client = new BinanceClient(AKEY);
+            BinanceClient client = new BinanceClient(ApiKEY);
             BinanceAPI.HTTP.Response.DailyRateResponse.DailyRate result;
             try
             {

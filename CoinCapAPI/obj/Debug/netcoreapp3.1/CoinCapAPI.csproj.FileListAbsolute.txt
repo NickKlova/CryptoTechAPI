@@ -1,0 +1,9 @@
+C:\Users\38050\Desktop\CryptoTech\API\API\CoinCapAPI\bin\Debug\netcoreapp3.1\CoinCapAPI.deps.json
+C:\Users\38050\Desktop\CryptoTech\API\API\CoinCapAPI\bin\Debug\netcoreapp3.1\CoinCapAPI.dll
+C:\Users\38050\Desktop\CryptoTech\API\API\CoinCapAPI\bin\Debug\netcoreapp3.1\CoinCapAPI.pdb
+C:\Users\38050\Desktop\CryptoTech\API\API\CoinCapAPI\obj\Debug\netcoreapp3.1\CoinCapAPI.csprojAssemblyReference.cache
+C:\Users\38050\Desktop\CryptoTech\API\API\CoinCapAPI\obj\Debug\netcoreapp3.1\CoinCapAPI.AssemblyInfoInputs.cache
+C:\Users\38050\Desktop\CryptoTech\API\API\CoinCapAPI\obj\Debug\netcoreapp3.1\CoinCapAPI.AssemblyInfo.cs
+C:\Users\38050\Desktop\CryptoTech\API\API\CoinCapAPI\obj\Debug\netcoreapp3.1\CoinCapAPI.csproj.CoreCompileInputs.cache
+C:\Users\38050\Desktop\CryptoTech\API\API\CoinCapAPI\obj\Debug\netcoreapp3.1\CoinCapAPI.dll
+C:\Users\38050\Desktop\CryptoTech\API\API\CoinCapAPI\obj\Debug\netcoreapp3.1\CoinCapAPI.pdb

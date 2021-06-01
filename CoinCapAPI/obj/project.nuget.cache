@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cqOj0buvKN4vc+ozJLSgIpj2F8N8R5ibvw3nZqyRxvwgm6jVNJ7Fty4UIO+QzBKJCRgNLwqSpQUIynENM3R66w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\38050\\Desktop\\CryptoTech\\API\\API\\CoinCapAPI\\CoinCapAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\38050\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

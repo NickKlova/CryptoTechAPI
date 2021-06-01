@@ -15,9 +15,9 @@ namespace API.Controllers
         [HttpGet("info")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> Get([FromHeader] string AKEY, [FromHeader] string SKEY)
+        public async Task<IActionResult> Get([FromHeader] string ApiKEY, [FromHeader] string SecretKEY)
         {
-            BinanceClient client = new BinanceClient(AKEY, SKEY);
+            BinanceClient client = new BinanceClient(ApiKEY, SecretKEY);
 
             BinanceAPI.HTTP.Response.AccountResponse.Account result;
             try

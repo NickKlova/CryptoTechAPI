@@ -22,6 +22,10 @@ namespace API.Controllers
             try
             {
                 result = await client.GetAllPriceInfo(symbol);
+                if(result.data == null)
+                {
+                    throw new Exception("Symbol is not correct!");
+                }
                 return Ok(result);
             }
             catch (Exception e)

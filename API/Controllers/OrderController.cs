@@ -113,6 +113,10 @@ namespace API.Controllers
             try
             {
                 result = await client.DeleteOrderAsync(symbol, orderId);
+                if (result.symbol == null || result.type == null)
+                {
+                    throw new Exception("Parameters entered incorrectly!");
+                }
                 return Ok(result);
             }
             catch(Exception e)

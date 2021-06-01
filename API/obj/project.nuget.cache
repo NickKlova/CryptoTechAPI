@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UlZesQY2B1Ke8F5tyhPOgqU8o5ENoWunlhnMckMUXLUog3RwOtQ1/QXL+NOQLOh4LakhaaonG1O7PMf5XXjHnw==",
+  "dgSpecHash": "TmILL0Pc96jDdbc4xL4NZ5toYhRJpl0DSplfxLcPI783718YOrpMnZFmRLB/e6FbZiJHK6vLWdjB/HdTcjur4w==",
   "success": true,
   "projectFilePath": "C:\\Users\\38050\\Desktop\\CryptoTech\\API\\API\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\38050\\.nuget\\packages\\awssdk.core\\3.7.0.31\\awssdk.core.3.7.0.31.nupkg.sha512",
+    "C:\\Users\\38050\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.0.30\\awssdk.dynamodbv2.3.7.0.30.nupkg.sha512",
     "C:\\Users\\38050\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\38050\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\38050\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
